@@ -1,0 +1,26 @@
+1. biggest difference between git reset and git revert is 
+that git reset will reset the state of the branch to a 
+previous state by dropping all the changes post the desired 
+commit while git revert will reset to a previous state by 
+creating new reverting commits and keep the original commits.
+
+2. Git Rebase
+Streamlines a potentially complex history.
+Avoids merge commit “noise” in busy repos with busy branches.
+Cleans intermediate commits by making them a single commit, which can be helpful for DevOps teams.
+Git Merge
+Simple and familiar.
+Preserves complete history and chronological order.
+Maintains the context of the branch.
+
+Git rebase and merge both integrate changes from one branch 
+into another. Where they differ is how it's done. 
+Git rebase moves a feature branch into a master. 
+Git merge adds a new commit, preserving the history.
+
+3. git stash pop applies the top stashed element and removes it 
+from the stack. git stash apply does the same, but leaves it 
+in the stash stack.
+
+4. Interactive rebasing can be used for changing commits in 
+many ways such as editing, deleting, and squashing.  

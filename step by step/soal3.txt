@@ -1,0 +1,11 @@
+1. Git clean can be considered complementary to other commands like git reset and git checkout. Whereas these other commands operate on files previously added to the Git tracking index, the git clean command operates on untracked files. Untracked files are files that have been created within your repo's working directory but have not yet been added to the repository's tracking index using the git add command. 
+2.git clean -f" would delete every new file that has not been added yet
+3. git branch
+4. Fast Forward Merge A fast-forward merge can occur when there is a linear path from the current branch tip to the target branch. Instead of “actually” merging the branches, all Git has to do to integrate the histories is move (i.e., “fast forward”) the current branch tip up to the target branch tip.
+5. git checkout
+6. git rm
+7. git branch -d <branch-name> ...
+git branch -D <branch-name> ...
+8. git diff is a multi-use Git command that when executed runs a diff function on Git data sources. These data sources can be commits, branches, files and more.
+9. git reset
+10. merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file.

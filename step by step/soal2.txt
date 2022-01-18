@@ -1,0 +1,23 @@
+1. mkdir firsty-ukhti-molyndi
+2. cd firsty-ukhti-molyndi
+touch README.md
+echo "Halo perkenalkan aku halaman utama" > README.md
+3. git init
+git add .
+4. git commit -m "Inisialisasi Git Repository"
+5. git checkout cv
+touch cv.txt
+echo "Ini adalah file CV" cv.txt
+git add .
+6. git commit -m "Inisialisasi CV"
+7. ketik facebook di dalam cv.txt
+git add .
+git commit -m "adding facebook"
+ ketik twitter di dalam cv.txt
+git add .
+git commit -m "adding twitter"
+ketik youtube di dalam cv.txt
+git add .
+git commit -m "adding youtube"
+8. git branch main
+9. git merge cv
